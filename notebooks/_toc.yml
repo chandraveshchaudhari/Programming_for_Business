@@ -6,13 +6,227 @@ root: intro
 
 chapters:
 
-# 1. Course Introduction
-- file: course_introduction
-  title: Course Introduction
+# 1. Introduction to Python for Machine Learning and Business
+- file: intro_python
+  title: Introduction to Python for Machine Learning and Business
   sections:
-    - file: course_goals
-      title: Course Goals & Business Outcomes
-    - file: how_to_use
-      title: How to Use This Book
-    - file: roadmap_prereqs
-      title: Roadmap & Prerequisites
+    - file: why_python_business
+      title: Why Python for Business and ML
+    - file: setup_environment
+      title: Setting Up Your Python Environment
+    - file: dev_tools
+      title: Python Development Tools (IDEs Jupyter VSCode Google Colab)
+    - file: first_program
+      title: Writing Your First Python Program
+    - file: business_usecases
+      title: Business Use Cases of Python (Automation Analytics ML)
+
+# 2. Python Fundamentals
+- file: python_fundamentals
+  title: Python Fundamentals
+  sections:
+    - file: variables_datatypes
+      title: Variables Data Types and Operators
+    - file: control_flow
+      title: Control Flow (If Else Loops)
+    - file: functions_lambda
+      title: Functions and Lambda Expressions
+    - file: modules_packages
+      title: Modules and Packages
+    - file: coding_practices
+      title: Best Practices for Business Oriented Code
+
+# 3. Core Data Structures
+- file: data_structures
+  title: Core Data Structures
+  sections:
+    - file: lists
+      title: Lists Operations Slicing and Comprehensions
+    - file: dictionaries
+      title: Dictionaries Key Value Pairs and Methods
+    - file: sets
+      title: Sets Unique Elements and Set Operations
+    - file: tuples
+      title: Tuples and Other Built in Types
+    - file: ds_business
+      title: Choosing the Right Data Structure for Business Problems
+
+# 4. Intermediate Python Programming
+- file: intermediate_python
+  title: Intermediate Python Programming
+  sections:
+    - file: comprehensions_generators
+      title: List Comprehensions and Generator Expressions
+    - file: file_io
+      title: File Input Output (CSV Excel JSON XML)
+    - file: error_handling
+      title: Error Handling and Exceptions
+    - file: libraries_overview
+      title: Working with Libraries (NumPy Pandas Matplotlib)
+    - file: business_formats
+      title: Business Data Formats (Excel PDFs APIs)
+
+# 5. Object Oriented Programming OOP
+- file: oop
+  title: Object Oriented Programming OOP
+  sections:
+    - file: classes_objects
+      title: Classes and Objects
+    - file: inheritance_polymorphism
+      title: Inheritance and Polymorphism
+    - file: methods_types
+      title: Static Methods Class Methods and Instance Methods
+    - file: decorators
+      title: Decorators Enhancing Functions and Methods
+    - file: class_interactions
+      title: Interactions Between Classes
+    - file: oop_ml_exercise
+      title: Exercise Building Classes for ML Pipelines
+    - file: oop_business
+      title: OOP for Business Applications (Banking HR Retail Examples)
+
+# 6. Advanced Python Techniques
+- file: advanced_python
+  title: Advanced Python Techniques
+  sections:
+    - file: functional_programming
+      title: Functional Programming (Map Filter Reduce)
+    - file: concurrency
+      title: Multithreading and Multiprocessing
+    - file: apis_webscraping
+      title: Working with APIs and Web Scraping
+    - file: datavisualization
+      title: Data Visualization
+    - file: matplotlib_basics
+      title: Matplotlib Plotting Basics
+    - file: seaborn_visuals
+      title: Seaborn for Advanced Visualizations
+    - file: plotly_interactive
+      title: Interactive Plots with Plotly and Dashboards
+    - file: automate_reports
+      title: Automating Business Reports (Excel PowerPoint PDFs)
+
+# 7. Algorithm Implementation in Python
+- file: algorithms
+  title: Algorithm Implementation in Python
+  sections:
+    - file: algo_basics
+      title: Understanding Algorithms and Data Structures
+    - file: arrays_lists_stacks
+      title: Arrays Linked Lists and Stacks
+    - file: trees_graphs
+      title: Trees Graphs and Hash Tables
+    - file: sorting_algorithms
+      title: Implementing Sorting Algorithms
+    - file: sorting_advanced
+      title: Advanced Sorting Techniques
+    - file: leetcode_easy
+      title: LeetCode Easy Problems 50
+    - file: leetcode_medium
+      title: LeetCode Medium Problems 75
+    - file: leetcode_hard
+      title: LeetCode Hard Problems 25
+    - file: optimization
+      title: Algorithm Optimization Techniques
+    - file: complexity
+      title: Time and Space Complexity Analysis
+    - file: dp_greedy
+      title: Dynamic Programming and Greedy Algorithms
+    - file: business_algos
+      title: Business Case Algorithms (Inventory Optimization Pricing Models)
+
+# 8. Program Design Principles
+- file: program_design
+  title: Program Design Principles
+  sections:
+    - file: clean_code
+      title: Writing Clean and Modular Code
+    - file: design_patterns
+      title: Design Patterns for ML Applications
+    - file: documentation
+      title: Documentation Best Practices
+    - file: git_version_control
+      title: Version Control with Git and GitHub
+    - file: end_to_end_programs
+      title: Building End to End Programs for Deployment
+    - file: testing_debugging
+      title: Testing and Debugging Business Applications
+
+# 9. Database Management with Python
+- file: databases
+  title: Database Management with Python
+  sections:
+    - file: intro_databases
+      title: Introduction to Databases (SQL vs NoSQL)
+    - file: sql_python
+      title: SQL with Python (SQLite MySQL PostgreSQL)
+    - file: nosql_python
+      title: NoSQL with Python (MongoDB Firebase)
+    - file: etl
+      title: Data Extraction and Transformation for ML
+    - file: db_optimization
+      title: Database Optimization Techniques
+    - file: db_business_integration
+      title: Business Data Integration (ERP CRM Finance Systems)
+
+# 10. Bash and Linux Scripting for ML and Business Automation
+- file: bash_linux
+  title: Bash and Linux Scripting for ML and Business Automation
+  sections:
+    - file: bash_intro
+      title: Introduction to Bash and Linux
+    - file: bash_ml_workflows
+      title: Automating ML and Data Workflows with Bash
+    - file: env_management
+      title: Managing Python Environments in Linux
+    - file: fs_operations
+      title: File System Operations and Scripting
+    - file: linux_deployment
+      title: Deploying ML Models on Linux Servers
+    - file: cron_jobs
+      title: Scheduling Jobs with Cron for Business Reports
+
+# 11. Practical Projects and Exercises
+- file: projects
+  title: Practical Projects and Exercises
+  sections:
+    - file: automate_tasks
+      title: Automating Business Tasks with Python
+    - file: business_insights
+      title: Data Analysis for Business Insights
+    - file: ml_from_scratch
+      title: Implementing ML Algorithms from Scratch
+    - file: ml_app_deployment
+      title: Deploying a Python Based ML Application
+    - file: capstone
+      title: Capstone Project Real Business Case Study
+
+# 12. Cloud and Deployment for Business ML
+- file: cloud_deployment
+  title: Cloud and Deployment for Business ML
+  sections:
+    - file: cloud_intro
+      title: Introduction to Cloud (AWS GCP Azure)
+    - file: flask_fastapi
+      title: Deploying Models with Flask FastAPI
+    - file: dashboards
+      title: Building Business Dashboards with Streamlit Dash
+    - file: docker
+      title: Containerization with Docker
+    - file: kubernetes
+      title: Scalable ML Deployment with Kubernetes
+
+# 13. Resources and Next Steps
+- file: resources
+  title: Resources and Next Steps
+  sections:
+    - file: python_libraries
+      title: Recommended Python Libraries for ML and Business
+    - file: leetcode_resources
+      title: LeetCode and Competitive Programming Resources
+    - file: communities
+      title: Communities and Further Learning
+    - file: project_ideas
+      title: Project Ideas for Portfolio Building
+    - file: career_paths
+      title: Career Paths in Python Data and Business Analytics

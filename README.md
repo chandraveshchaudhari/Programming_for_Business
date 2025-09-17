@@ -1,90 +1,104 @@
-# Welcome to *JupyterBook + JupyterLite integration Template* 🚀📊
+# 📘 Programming for Machine Learning and Business
 
-This repository is a **template** for building your own interactive **JupyterBook** with:
+[![Jupyter Book](https://jupyterbook.org/badge.svg)](https://chandraveshchaudhari.github.io/Python-ML-Business/)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chandraveshchaudhari/Python-ML-Business/)
+[![JupyterLite](https://img.shields.io/badge/launch-jupyterlite-blue)](https://chandraveshchaudhari.github.io/Python-ML-Business/lite/lab/)
 
-* ✅ **JupyterLite integration** (run notebooks directly in the browser, no installation needed)
-* ✅ **Google Colab option** (open notebooks in Colab with one click)
-
-It is designed for **teaching, self-study, or research projects**, especially where **business + machine learning** intersect.
-You can fork this repo and customize it for your own course, project, or book.
-
----
-
-## 📖 Features of This Template
-
-* **Interactive Book** built with [JupyterBook](https://jupyterbook.org)
-* **In-browser execution** via [JupyterLite](https://jupyterlite.readthedocs.io/)
-* **Colab badges** to open notebooks directly in Google Colab
-* **Pre-configured GitHub Actions** for automatic deployment to GitHub Pages
-* **Organized structure** with `lecture_notebooks/`, `_config.yml`, and `_toc.yml` already set up
+This repository contains the source code and materials for the **Python for Machine Learning and Business** JupyterBook.  
+It is designed to teach **Python fundamentals**, **data science**, **algorithms**, and **business-focused ML applications** through interactive notebooks, exercises, and real case studies.
 
 ---
 
-## ⚡ How to Use This Template
+## 🚀 Features
+- Complete **Python + Business ML curriculum**
+- Hands-on **Jupyter Notebooks**
+- Interactive execution in:
+  - **JupyterLite** (runs in browser, no setup)
+  - **Google Colab**
+  - Local Jupyter environment
+- Covers fundamentals → advanced → deployment
 
-1. **Create your repo**
+---
+```
+## 📂 Repository Structure
 
-   * Click **“Use this template”** (green button on top of GitHub)
-   * Give your new repo a name, e.g. `my-ml-book`
+Python-ML-Business/
+│
+├── lecture\_notebooks/    # Source notebooks
+├── \_config.yml           # JupyterBook configuration
+├── \_toc.yml              # Table of contents
+├── intro.md              # Landing page (book homepage)
+└── requirements.txt      # Python dependencies
+```
 
-2. **Clone your repo locally**
+## 🛠️ How to Build Locally
+```bash
+# 1. Clone the repo
+git clone https://github.com/chandraveshchaudhari/Python-ML-Business.git
+cd Python-ML-Business
 
-   ```bash
-   git clone https://github.com/yourusername/my-ml-book.git
-   cd my-ml-book
-   ```
+# 2. Install dependencies
+pip install -r requirements.txt
 
-3. **Install dependencies**
+# 3. Build the JupyterBook
+jupyter-book build .
 
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Build the book locally**
-
-   ```bash
-   jupyter-book build .
-   ```
-
-   Preview the site in `_build/html/`.
-
-5. **Deploy to GitHub Pages**
-   Push your changes to GitHub—deployment is automatic with GitHub Actions.
+# 4. Preview in browser
+open _build/html/index.html
+````
 
 ---
 
-## 🖥️ Running Notebooks
+## 🌐 Online Access
 
-You have **three options** to run notebooks:
-
-1. **In the browser (no install needed)**
-   Every notebook has a **“Launch in JupyterLite”** badge → click and run instantly in your browser.
-
-2. **On Google Colab**
-   Look for the **“Open in Colab”** badge at the top of each notebook.
-
-3. **Locally**
-   Run with JupyterLab or VS Code after installing requirements.
+* **Website**: [Python for ML and Business](https://chandraveshchaudhari.github.io/Python-ML-Business/)
+* **JupyterLite**: Run in your browser → [Launch Now](https://chandraveshchaudhari.github.io/Python-ML-Business/lite/lab/)
+* **Google Colab**: [Open in Colab](https://colab.research.google.com/github/chandraveshchaudhari/Python-ML-Business/)
 
 ---
 
-## 👨‍🏫 About the Author (Template Maintainer)
+## 📖 Contents Overview
+
+* Python Fundamentals
+* Data Wrangling and Visualization
+* Algorithms and Data Structures
+* Object-Oriented Programming with Case Studies
+* Business Data Formats (Excel, APIs, PDFs)
+* Advanced Python (Concurrency, Web Scraping, Automation)
+* Database Integration (SQL & NoSQL)
+* Bash Scripting for Automation
+* Cloud Deployment (Flask, Docker, Kubernetes)
+* Capstone Project
+
+---
+
+## 🧑‍💻 Contributing
+
+Contributions are welcome! 🚀
+If you’d like to fix errors, improve explanations, or add new exercises:
+
+1. Fork the repo
+2. Create a feature branch
+3. Submit a pull request
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – you are free to use, modify, and share.
+
+---
+
+## 👨‍🏫 Author
 
 **Dr. Chandravesh Chaudhari**
-Assistant Professor, School of Business and Management
+
+(Assistant Professor)
+
+School of Business and Management, 
 Christ (Deemed to be University), India
 
-📧 [chandravesh.chaudhari@christuniversity.in](mailto:chandravesh.chaudhari@christuniversity.in)
-🌐 [Personal Website](https://github.com/chandraveshchaudhari/website)
-🔗 [LinkedIn](https://www.linkedin.com/in/chandraveshchaudhari)
+🌐 [Website](https://chandraveshchaudhari.github.io/website/)
+📧 [Contact via Email](mailto:chandraveshchaudhari@gmail.com)
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/chandraveshchaudhari)
 
----
-
-## 🚀 Get Started Now
-
-* Use the sidebar (📑 Table of Contents) to navigate through chapters
-* Try out the examples directly in **JupyterLite** or **Google Colab**
-* Customize the content and publish your own book
-
-```{tableofcontents}
-```
